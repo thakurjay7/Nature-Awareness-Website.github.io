@@ -1,0 +1,193 @@
+/* Global Css */
+body {
+  margin: 0;
+  line-height: normal;
+  box-sizing: border-box;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-203xl: 222px;
+  --font-size-8xl: 27px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-lime: #24ff00;
+}
+
+/* Leaves Bg Img */
+.desktop-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  background-image: url(./public/desktop--1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+  position: relative; /* To position absolutely within this container */
+}
+
+/* Overlay Glass layer */
+.main-img-icon {
+  border-radius: 54px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(59px);
+  width: 1400px;
+  height: 950px;
+  position: absolute; /* Positioning within .desktop-1 container */
+
+  align-content: center;
+}
+.plant-img{
+  position: absolute;
+  top: 110px;
+  width: 548px;
+  height: 749px;
+  right: 60px;
+}
+/* Header Nature */
+.header {
+  top: 80px;
+  left: 95px;
+  width: 162px;
+  height: 33px;
+  font-weight: 900;
+  position: absolute;
+}
+/* NavBar right side */
+.home-parent {
+  display: flex;
+  gap: 36px;
+  font-size: var(--font-size-6xl);
+  position: absolute; /* Positioning within .desktop-1 container */
+  top: 0;
+  left: 800px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  text-decoration: underline #22fe00;
+}
+/* Description */
+.description {
+  font-weight: 500;
+  position: absolute; /* Positioning within .desktop-1 container */
+  top: 505px;
+  left: 15px;
+}
+.main-content {
+  font-size: 14px;
+  font-family: var(--font-poppins);
+  position: absolute; /* Positioning within .desktop-1 container */
+  top: 82px;
+  left: 81px;
+  width: 1301px;
+  height: 589px;
+}
+
+
+/* NATURE main heading */
+.e,
+.t,
+.a,
+.n,
+.r,
+.u {
+  display: inline-block;
+  width: 167px;
+  height: 287px;
+  text-shadow: 13px 4px 15px rgba(0, 0, 0, 0.5);
+  position: absolute; /* Positioning within .desktop-1 container */
+}
+.main-heading {
+  font-size: var(--font-size-203xl);
+  position: absolute; /* Positioning within .desktop-1 container */
+  top: 208px;
+  left: 4px;
+  width: 763px;
+  height: 288px;
+}
+
+
+.save-the {
+  font-size: var(--font-size-8xl);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  position: absolute; /* Positioning within .desktop-1 container */
+  top: 240px;
+  left: 15px;
+}
+
+.e {
+  top: 1px;
+  left: 596px;
+}
+
+.t {
+  left: 256px;
+}
+
+.a {
+  color: var(--color-lime);
+  left: 131px;
+}
+
+.n {
+  left: 0;
+}
+
+.r {
+  top: 0;
+  left: 484px;
+  color: var(--color-lime);
+}
+
+.u {
+  top: 1px;
+  left: 366px;
+}
+
+
+/* Join Now rectangle box */
+.join-now-button-child {
+  border-radius: 38.5px;
+  background-color: var(--color-lime);
+  width: 331px;
+  height: 77px;
+  position: absolute; /* Positioning within .desktop-1 container */
+  top: 0;
+  left: 0;
+  background-color: #1edf01;
+  box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.437);
+}
+/* Join Now Text */
+.join-now {
+  text-transform: uppercase;
+  font-weight: 900;
+  position: absolute; /* Positioning within .desktop-1 container */
+  top: 20px;
+  left: 79px;
+  
+}
+
+.join-now-button {
+  width: 331px;
+  height: 77px;
+  font-size: 30px;
+  position: absolute; /* Positioning within .desktop-1 container */
+  top: 765px;
+  left: 116px;
+}
