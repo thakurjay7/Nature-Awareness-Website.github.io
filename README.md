@@ -1,10 +1,7 @@
 
-  # Join Nature 
+  # Join Nature
+  Netlify - https://jocular-meerkat-37bb4d.netlify.app
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+"I have developed a website with the primary goal of raising awareness about the significance of nature conservation. Currently, the website is in its initial stages, featuring a landing page exclusively.
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+The website's construction involved the utilization of Figma for design, followed by AI-generated HTML and CSS code to create an initial framework. Subsequently, I have further refined and modified the code to ensure the website's functionality and appeal."
